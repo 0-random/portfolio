@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random's Portfolio</title>
+    <meta
+      name="description"
+      content="Static portfolio website for a Roblox scripter featuring gameplay clips and an about section."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Syne:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <noscript>
+      <style>
+        .intro {
+          display: none;
+        }
+
+        .reveal {
+          opacity: 1;
+          transform: none;
+        }
+      </style>
+    </noscript>
+  </head>
+  <body>
+    <div class="intro" id="intro" aria-hidden="true">
+      <p class="intro__tag">Roblox Scripter</p>
+      <h1 class="intro__logo">0.random</h1>
+    </div>
+
+    <header class="site-header">
+      <a class="brand" href="#top"></a>
+      <nav aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#why">Why Me</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section reveal">
+        <p class="hero__eyebrow">Custom Roblox Systems</p>
+        <h2>I script polished gameplay that feels smooth, reliable, and fun.</h2>
+        <p>
+          I build gameplay systems, UI logic, optimization scripts, and custom mechanics for Roblox games.
+          This is a static portfolio to show some clips and how I work.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#work">View Clips</a>
+          <a class="btn btn--ghost" href="#about">About Me</a>
+        </div>
+      </section>
+
+      <section class="section work" id="work">
+        <div class="section__heading reveal">
+          <p class="section__tag">Example Builds</p>
+          <h3>Video Clips</h3>
+        </div>
+
+        <div class="clip-grid">
+          <article class="clip-card reveal">
+            <video controls preload="metadata">
+              <source src="media/clip-1.mp4" type="video/mp4" />
+            </video>
+            <div class="clip-card__content">
+              <h4>Combat System</h4>
+              <p>Cooldown-based modular system with responsive hit detection.</p>
+            </div>
+          </article>
+
+          <article class="clip-card reveal">
+            <video controls preload="metadata">
+              <source src="media/clip-2.mp4" type="video/mp4" />
+            </video>
+            <div class="clip-card__content">
+              <h4>Laser gun with custom ability</h4>
+              <p>Custom tool that makes players head blow up and explode.</p>
+            </div>
+          </article>
+
+          <article class="clip-card reveal">
+            <video controls preload="metadata">
+              <source src="media/clip-3.mp4" type="video/mp4" />
+            </video>
+            <div class="clip-card__content">
+              <h4>Tower Defense System</h4>
+              <p>Basic skeleton of a tower defense system.</p>
+            </div>
+          </article>
+
+          <article class="clip-card reveal">
+            <video controls preload="metadata">
+              <source src="media/clip-4.mp4" type="video/mp4" />
+            </video>
+            <div class="clip-card__content">
+              <h4>Projectile System</h4>
+              <p>Responsive cooldown based projectile with cooldown reflected in the backpack ui.</p>
+            </div>
+          </article>
+
+          <article class="clip-card reveal">
+            <video controls preload="metadata">
+              <source src="media/clip-5.mp4" type="video/mp4" />
+            </video>
+            <div class="clip-card__content">
+              <h4>Simulator System</h4>
+              <p>Basic simulator skeleton along with shop and multiplier system.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section why" id="why">
+        <div class="section__heading reveal">
+          <p class="section__tag">Why Work With Me</p>
+          <h3>Why Hire Me</h3>
+        </div>
+
+        <div class="benefit-grid">
+          <article class="benefit-card reveal">
+            <h4>Fast Iteration</h4>```
+            <p>Quick turnaround on features and systems. I prioritize getting working prototypes out fast so we can refine together.</p>
+          </article>
+
+          <article class="benefit-card reveal">
+            <h4>Clean Code</h4>
+            <p>Maintainable, modular scripts using industry pattern` for easy expansion later.</p>
+          </article>
+
+          <article class="benefit-card reveal">
+            <h4>Performance First</h4>
+            <p>Optimized systems that scale. I profile and refactor to keep frame rates smooth even with complex gameplay.</p>
+          </article>
+
+          <article class="benefit-card reveal">
+            <h4>Communication</h4>
+            <p>Transparent updates on progress, blockers, and solutions. You'll know exactly where we stand and what comes next.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="section__heading reveal">
+          <p class="section__tag">Who I Am</p>
+          <h3>About Me</h3>
+        </div>
+
+        <div class="about__layout">
+          <article class="about__card reveal">
+            <p>
+              I am a Roblox scripter with two years of experience focused on creating systems that are easy to expand and maintain.
+              I enjoy solving gameplay problems and turning ideas into working mechanics quickly.
+            </p>
+            <p>
+              I can do mostly anything ranging from simulators, tycoons, vehicles, guns to full fledged combat systems. I am also familiar with using frameworks like knit and rojo.
+            </p>
+          </article>
+
+          <aside class="about__stats reveal" aria-label="Quick facts">
+            <div>
+              <span>Specialty</span>
+              <strong>Gameplay Scripting</strong>
+            </div>
+            <div>
+              <span>Focus</span>
+              <strong>Systems + Optimization</strong>
+            </div>
+            <div>
+              <span>Availability</span>
+              <strong>Open for Commissions</strong>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section contact reveal" id="contact">
+        <p class="section__tag">Let’s Build</p>
+        <h3>Need a Roblox scripter for your game?</h3>
+        <p>Contact me on discord!</p>
+        <a class="btn btn--primary">0.random</a>
+      </section>
+    </main>
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
